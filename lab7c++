@@ -84,4 +84,5 @@ void main()
 		}
 	} while (number != '0');
 	system("pause");
+	return 0;
 }
