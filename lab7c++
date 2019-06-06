@@ -30,14 +30,14 @@ void Add(Queue *Q)
 }
 void Delete(Queue *Q) //удаление элемента
 {
-	for (int i = 0; i < Q->last && i < N; i++) //смещение элементов
+	for (int i = 0; i < Q->last && i < N; i++) 
 		Q->data[i] = Q->data[i + 1]; Q->last--;
 }
-int Top(Queue *Q) //вывод начального элемента
+int Top(Queue *Q) 
 {
 	return Q->data[0];
 }
-int Size(Queue *Q) //размер очереди
+int Size(Queue *Q) 
 {
 	return Q->last;
 }
